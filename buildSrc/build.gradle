@@ -1,0 +1,16 @@
+plugins {
+    id 'groovy'
+    id 'groovy-gradle-plugin'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    api localGroovy()
+    api gradleApi()
+    api 'com.squareup:javapoet:1.13.0'
+    api 'org.springframework.boot:spring-boot-autoconfigure:2.7.15'
+    api 'org.springframework.boot:spring-boot:2.7.15'
+}

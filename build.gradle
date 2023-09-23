@@ -1,0 +1,27 @@
+
+plugins {
+    id 'idea'
+    id 'groovy-gradle-plugin'
+    id 'groovy'
+}
+
+group 'ru.otus'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    api 'org.codehaus.groovy:groovy-all:3.0.5'
+}
+
+//apply plugin: 'generator'
+
+
+
+//generator {
+//    mainClass {
+//
+//    }
+//}
